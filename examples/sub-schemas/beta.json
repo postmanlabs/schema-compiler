@@ -1,0 +1,9 @@
+{
+    "title": "beta",
+    "id": "#/definitions/beta",
+    "properties": {
+        "beta": {
+            "type": "string"
+        }
+    }
+}

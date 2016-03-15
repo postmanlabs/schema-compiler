@@ -1,0 +1,9 @@
+{
+    "title": "alpha",
+    "id": "#/definitions/alpha",
+    "properties": {
+        "beta": {
+            "$ref": "#/definitions/beta"
+        }
+    }
+}

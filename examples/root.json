@@ -1,0 +1,9 @@
+{
+    "id": "https://example.com/schema/",
+    "type": "object",
+    "properties": {
+        "alpha": {
+            "$ref": "#/definitions/alpha"
+        }
+    }
+}
