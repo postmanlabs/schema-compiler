@@ -1,0 +1,23 @@
+{
+  "name": "json-schema-builder",
+  "version": "0.0.1",
+  "description": "Builds an all encompassing, complete JSON Schema from smaller ones, resolving $refs along the way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./scripts/test.sh"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "builder",
+    "compiler"
+  ],
+  "author": "Postman Labs <help@getpostman.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jscs": "^2.1.1",
+    "eslint": "^1.9.0",
+    "mocha": "^2.3.0"
+  }
+}
