@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Builds an all encompassing, complete JSON Schema from smaller ones, resolving $refs along the way.",
   "main": "index.js",
+  "bin": {
+      "json-schema-builder": "./bin/builder.js"
+  },
   "scripts": {
     "test": "./scripts/test.sh"
   },
@@ -19,5 +22,11 @@
     "jscs": "^2.1.1",
     "eslint": "^1.9.0",
     "mocha": "^2.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "miniargs": "0.0.1",
+    "strip-json-comments": "^2.0.1",
+    "tv4": "^1.2.7"
   }
 }
