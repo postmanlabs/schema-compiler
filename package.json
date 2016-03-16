@@ -1,6 +1,6 @@
 {
   "name": "schema-compiler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Builds an all encompassing, complete JSON Schema from smaller ones, resolving $refs along the way.",
   "main": "index.js",
   "bin": {
