@@ -4,7 +4,7 @@
   "description": "Builds an all encompassing, complete JSON Schema from smaller ones, resolving $refs along the way.",
   "main": "index.js",
   "bin": {
-    "json-schema-builder": "./bin/compiler.js"
+    "json-schema-compiler": "./bin/compiler.js"
   },
   "scripts": {
     "test": "./scripts/test.sh"
