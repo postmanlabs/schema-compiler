@@ -19,9 +19,9 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "jscs": "^2.1.1",
-    "eslint": "^1.9.0",
-    "mocha": "^2.3.0"
+    "jscs": "^3.0.7",
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0"
   },
   "dependencies": {
     "lodash": "^4.6.1",
