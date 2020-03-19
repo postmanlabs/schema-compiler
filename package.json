@@ -21,7 +21,7 @@
     "expect.js": "^0.3.1",
     "jscs": "^2.1.1",
     "eslint": "^1.9.0",
-    "mocha": "^2.3.0"
+    "mocha": "^7.1.1"
   },
   "dependencies": {
     "lodash": "^4.6.1",
