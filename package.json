@@ -7,7 +7,9 @@
     "json-schema-compiler": "./bin/compiler.js"
   },
   "scripts": {
-    "test": "./scripts/test.sh"
+    "test": "./scripts/test.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "json",
@@ -27,6 +29,8 @@
     "lodash": "^4.6.1",
     "miniargs": "0.0.1",
     "strip-json-comments": "^2.0.1",
-    "tv4": "^1.2.7"
-  }
+    "tv4": "^1.2.7",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
